@@ -1,16 +1,20 @@
 {
-  "name": "urlm",
+  "name": "myurlshort",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "20.x"
   },
-  "keywords": [],
+  "scripts": {
+    "start": "node index.js"
+  },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "ejs": "^3.1.10",
-    "express": "^5.1.0"
+    "express": "^4.21.0",
+    "mongoose": "^8.16.1",
+    "shortid": "^2.2.16"
   }
 }

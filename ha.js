@@ -4,4 +4,4 @@
         ip = data.ip;
 console.log(ip);
  }
- ha()
+ ha();
